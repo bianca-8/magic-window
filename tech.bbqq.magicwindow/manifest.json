@@ -1,0 +1,13 @@
+{
+  "minVersion": 2,
+  "manifestVersion": 2,
+  "appVersion": "v1.0.0",
+  "waf": true,
+  "id": "tech.bbqq.magicwindow",
+  "name": "Magic Window",
+  "author": "bbqq",
+  "description": "Window into the magical outdoors (for coders)!",
+  "repo": "https://github.com/bianca-8/magic-window",
+  "icon": "icon.png",
+  "entrypoint": "index.html"
+}

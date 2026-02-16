@@ -1,0 +1,11 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+  border-radius: 15px;
+}
