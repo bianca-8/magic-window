@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta name="viewport" content="user-scalable=no"/>
-  <script src="file:///mnt/us/mesquito/polyfill.min.js"></script>
-  <script src="file:///mnt/us/mesquito/sdk.js"></script>
+  <!--<script src="file:///mnt/us/mesquito/polyfill.min.js"></script>
+  <script src="file:///mnt/us/mesquito/sdk.js"></script>-->
 
-  <script src="./main.js"></script>
+  <script src="./main.js" defer></script>
   <link href="./main.css" rel="stylesheet">
 
   <title>Magic Window</title>
@@ -14,5 +14,18 @@
   <h1>Magic Window</h1>
 
   <button id="myButton" onclick="buttonClick()">Flip Orientation</button>
+
+  <div class="search-container">
+    <input type="text" id="cityInput" placeholder="Enter city name: ">
+    <div id="button" onclick="getCoords()">Find Coordinates</div>
+    </div>
+
+    <div id="resultBox">
+    <p>Latitude: <span id="lat">---</span></p>
+    <p>Longitude: <span id="lon">---</span></p>
+  </div>
+
+  <div id="person"></div>
+  <div id="ground"></div>
 </body>
 </html>
